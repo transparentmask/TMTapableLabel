@@ -1,6 +1,5 @@
 # TMTapableLabel
 
-[![CI Status](http://img.shields.io/travis/Martin Yin/TMTapableLabel.svg?style=flat)](https://travis-ci.org/Martin Yin/TMTapableLabel)
 [![Version](https://img.shields.io/cocoapods/v/TMTapableLabel.svg?style=flat)](http://cocoapods.org/pods/TMTapableLabel)
 [![License](https://img.shields.io/cocoapods/l/TMTapableLabel.svg?style=flat)](http://cocoapods.org/pods/TMTapableLabel)
 [![Platform](https://img.shields.io/cocoapods/p/TMTapableLabel.svg?style=flat)](http://cocoapods.org/pods/TMTapableLabel)

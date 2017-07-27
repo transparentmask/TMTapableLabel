@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011A044B974064A6FE54EE706718F1CD /* TMTapableLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF0A4A8750F5B021696E76055FB46EA /* TMTapableLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DEC9CA6BC0F43D63CA8C0376DE3A0F /* TMTapableLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B46F7976C667ABE35638118D55CDC02 /* TMTapableLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A2F0DA2157F909FA25BFECC7764295 /* Pods-TMTapableLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C128ED4BEE8EED07D1A98153B37A2491 /* Pods-TMTapableLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DAE5D0679B48702BCFFA0FFBFC700AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6F54E5213808A2F6BF45DC74CD73ADDE /* Pods-TMTapableLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBA62450BADEB7BD88173F6DFB706D3 /* Pods-TMTapableLabel_Example-dummy.m */; };
+		74F4FA3D74C49BCC52AA229A7E35F973 /* TMTapableLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F27C9DFF41C3BD6C649B2C789F0EC /* TMTapableLabel-dummy.m */; };
+		779F1E83DD04140058E45308E9125F48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		79E1692186D3029893301B960FC98177 /* Pods-TMTapableLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5641A9E07DC3544E5155AFD03AFC38ED /* Pods-TMTapableLabel_Tests-dummy.m */; };
+		7A391E1D91F9FE7547F7B0A1259BE36C /* Pods-TMTapableLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 905831005BCB8104FFE530C32C820D15 /* Pods-TMTapableLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93212370F737AECB5FE9F384365D0AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D3B1C9A4B0E113C21CCF6A241BB34509 /* TMTapableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF94B4748F09E98D059C663C179A4A8 /* TMTapableLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE9E9C6BAFFD0BA9EE1E089DC788428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B9513B79612CDBB32EA1E6504975A7;
+			remoteInfo = TMTapableLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B46F7976C667ABE35638118D55CDC02 /* TMTapableLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMTapableLabel-umbrella.h"; sourceTree = "<group>"; };
+		15C11E76B23257C710490C5FA1222FBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF94B4748F09E98D059C663C179A4A8 /* TMTapableLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TMTapableLabel.m; sourceTree = "<group>"; };
+		1B5562F480A1E518A0E8B5218A3635AC /* TMTapableLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMTapableLabel.xcconfig; sourceTree = "<group>"; };
+		2E0E93FBEDE7146A0AF573FC236ABE37 /* Pods-TMTapableLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMTapableLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		397C638B1A312D1839468EA8160278C5 /* Pods-TMTapableLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMTapableLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		4D4EE65EE868E56C15101C236B8532ED /* Pods-TMTapableLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMTapableLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		5641A9E07DC3544E5155AFD03AFC38ED /* Pods-TMTapableLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMTapableLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		5F445F86B915BD42F526A76E01633B6D /* Pods-TMTapableLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMTapableLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69CC899954921C4D010E26520EF249DB /* TMTapableLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TMTapableLabel.modulemap; sourceTree = "<group>"; };
+		6A231E1C024D1D0F6CB5F89EDA6AB7FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7437FBC0F919DD401597E1C8DDBB1F54 /* Pods-TMTapableLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMTapableLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1152F5F4A30FE7E1DBAEB97DC8CB0B /* Pods_TMTapableLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMTapableLabel_Tests.framework; path = "Pods-TMTapableLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE497323491CCA6C289B397B3190BF /* Pods-TMTapableLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMTapableLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		905831005BCB8104FFE530C32C820D15 /* Pods-TMTapableLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMTapableLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950AFDF7484A42AE6236E9BD0320D7CF /* TMTapableLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TMTapableLabel.framework; path = TMTapableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBA62450BADEB7BD88173F6DFB706D3 /* Pods-TMTapableLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMTapableLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		A2514B04F1A1D8569AE3B2A7D3972B5F /* TMTapableLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMTapableLabel-prefix.pch"; sourceTree = "<group>"; };
+		A407CC724ED92222348D83B29C4B5886 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A737DAA355FF5A6005F1B348ED569661 /* Pods-TMTapableLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMTapableLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0F10BF57B7C5F064CDF415D8A38B3CA /* Pods-TMTapableLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMTapableLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B2D22B7F0AB11C532ED6B5AFDF0F9072 /* Pods_TMTapableLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMTapableLabel_Example.framework; path = "Pods-TMTapableLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E01B03AE30106EF98F8B08311B3615 /* Pods-TMTapableLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMTapableLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BBF0A4A8750F5B021696E76055FB46EA /* TMTapableLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TMTapableLabel.h; sourceTree = "<group>"; };
+		C128ED4BEE8EED07D1A98153B37A2491 /* Pods-TMTapableLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMTapableLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D7F82F803AC412F24CDD8E3AB1CF1B32 /* Pods-TMTapableLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMTapableLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D916841F9B396F3067D9A2A5493BAC51 /* Pods-TMTapableLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMTapableLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5F27C9DFF41C3BD6C649B2C789F0EC /* TMTapableLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMTapableLabel-dummy.m"; sourceTree = "<group>"; };
+		E580B0E4049D6F92A96A6DC80E78D408 /* Pods-TMTapableLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TMTapableLabel_Example.modulemap"; sourceTree = "<group>"; };
+		EFC34240C172F6A779446F157AA2720A /* Pods-TMTapableLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMTapableLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF86D9C512E32B6B665891D677514393 /* Pods-TMTapableLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TMTapableLabel_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7D0EDAA20C69C4A0947741EBC628F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779F1E83DD04140058E45308E9125F48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB014A465D525CA638F822688BF2BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAE5D0679B48702BCFFA0FFBFC700AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03129F6ABC5B5C8A7BA733763A4D7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93212370F737AECB5FE9F384365D0AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38CC4A5D0AD0418BB833245642EFEB3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0A4A8750F5B021696E76055FB46EA /* TMTapableLabel.h */,
+				1AF94B4748F09E98D059C663C179A4A8 /* TMTapableLabel.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BF9D51F09885F21374A9FD676DB8E33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				780423D2690D8BB901F1DD2BB62290AC /* Pods-TMTapableLabel_Example */,
+				7F816ABED2A5E7B851B9CADFB7C2240A /* Pods-TMTapableLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		780423D2690D8BB901F1DD2BB62290AC /* Pods-TMTapableLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A231E1C024D1D0F6CB5F89EDA6AB7FA /* Info.plist */,
+				E580B0E4049D6F92A96A6DC80E78D408 /* Pods-TMTapableLabel_Example.modulemap */,
+				5F445F86B915BD42F526A76E01633B6D /* Pods-TMTapableLabel_Example-acknowledgements.markdown */,
+				A737DAA355FF5A6005F1B348ED569661 /* Pods-TMTapableLabel_Example-acknowledgements.plist */,
+				9CBA62450BADEB7BD88173F6DFB706D3 /* Pods-TMTapableLabel_Example-dummy.m */,
+				2E0E93FBEDE7146A0AF573FC236ABE37 /* Pods-TMTapableLabel_Example-frameworks.sh */,
+				397C638B1A312D1839468EA8160278C5 /* Pods-TMTapableLabel_Example-resources.sh */,
+				905831005BCB8104FFE530C32C820D15 /* Pods-TMTapableLabel_Example-umbrella.h */,
+				7437FBC0F919DD401597E1C8DDBB1F54 /* Pods-TMTapableLabel_Example.debug.xcconfig */,
+				B3E01B03AE30106EF98F8B08311B3615 /* Pods-TMTapableLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-TMTapableLabel_Example";
+			path = "Target Support Files/Pods-TMTapableLabel_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CA553EFDC52264CB073FBC878E66AC30 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F30071ECE09A96491133D6330D2F2C2D /* Products */,
+				5BF9D51F09885F21374A9FD676DB8E33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F816ABED2A5E7B851B9CADFB7C2240A /* Pods-TMTapableLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A407CC724ED92222348D83B29C4B5886 /* Info.plist */,
+				FF86D9C512E32B6B665891D677514393 /* Pods-TMTapableLabel_Tests.modulemap */,
+				84EE497323491CCA6C289B397B3190BF /* Pods-TMTapableLabel_Tests-acknowledgements.markdown */,
+				EFC34240C172F6A779446F157AA2720A /* Pods-TMTapableLabel_Tests-acknowledgements.plist */,
+				5641A9E07DC3544E5155AFD03AFC38ED /* Pods-TMTapableLabel_Tests-dummy.m */,
+				B0F10BF57B7C5F064CDF415D8A38B3CA /* Pods-TMTapableLabel_Tests-frameworks.sh */,
+				4D4EE65EE868E56C15101C236B8532ED /* Pods-TMTapableLabel_Tests-resources.sh */,
+				C128ED4BEE8EED07D1A98153B37A2491 /* Pods-TMTapableLabel_Tests-umbrella.h */,
+				D7F82F803AC412F24CDD8E3AB1CF1B32 /* Pods-TMTapableLabel_Tests.debug.xcconfig */,
+				D916841F9B396F3067D9A2A5493BAC51 /* Pods-TMTapableLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-TMTapableLabel_Tests";
+			path = "Target Support Files/Pods-TMTapableLabel_Tests";
+			sourceTree = "<group>";
+		};
+		88C51A3195D01D7A0CDA4FB0758EBB41 /* TMTapableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C903EF4BE91859B2EB19EABE1B088AAC /* Support Files */,
+				DB810F6E281A151589C7C0469E381116 /* TMTapableLabel */,
+			);
+			name = TMTapableLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C903EF4BE91859B2EB19EABE1B088AAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C11E76B23257C710490C5FA1222FBA /* Info.plist */,
+				69CC899954921C4D010E26520EF249DB /* TMTapableLabel.modulemap */,
+				1B5562F480A1E518A0E8B5218A3635AC /* TMTapableLabel.xcconfig */,
+				DF5F27C9DFF41C3BD6C649B2C789F0EC /* TMTapableLabel-dummy.m */,
+				A2514B04F1A1D8569AE3B2A7D3972B5F /* TMTapableLabel-prefix.pch */,
+				0B46F7976C667ABE35638118D55CDC02 /* TMTapableLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TMTapableLabel";
+			sourceTree = "<group>";
+		};
+		CA553EFDC52264CB073FBC878E66AC30 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C51A3195D01D7A0CDA4FB0758EBB41 /* TMTapableLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB810F6E281A151589C7C0469E381116 /* TMTapableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				38CC4A5D0AD0418BB833245642EFEB3C /* Classes */,
+			);
+			name = TMTapableLabel;
+			path = TMTapableLabel;
+			sourceTree = "<group>";
+		};
+		F30071ECE09A96491133D6330D2F2C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D22B7F0AB11C532ED6B5AFDF0F9072 /* Pods_TMTapableLabel_Example.framework */,
+				7C1152F5F4A30FE7E1DBAEB97DC8CB0B /* Pods_TMTapableLabel_Tests.framework */,
+				950AFDF7484A42AE6236E9BD0320D7CF /* TMTapableLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46CE90D3D30A3E661793935A6AE9483F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A391E1D91F9FE7547F7B0A1259BE36C /* Pods-TMTapableLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F9632909279B6DF0CFE7A0D3DBA5C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DEC9CA6BC0F43D63CA8C0376DE3A0F /* TMTapableLabel-umbrella.h in Headers */,
+				011A044B974064A6FE54EE706718F1CD /* TMTapableLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5D04818CBB790D62CF80CC16AD8E70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A2F0DA2157F909FA25BFECC7764295 /* Pods-TMTapableLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FA58C7D091FAF1CB7DD3DF7B2A0C562 /* Pods-TMTapableLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663AAC36238B3357A658D4777C440C72 /* Build configuration list for PBXNativeTarget "Pods-TMTapableLabel_Tests" */;
+			buildPhases = (
+				3F2BF2E7A2123D73254BFD7D43E66F51 /* Sources */,
+				BDB014A465D525CA638F822688BF2BFC /* Frameworks */,
+				DC5D04818CBB790D62CF80CC16AD8E70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TMTapableLabel_Tests";
+			productName = "Pods-TMTapableLabel_Tests";
+			productReference = 7C1152F5F4A30FE7E1DBAEB97DC8CB0B /* Pods_TMTapableLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22B9513B79612CDBB32EA1E6504975A7 /* TMTapableLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7727D3D7A75FB7D1C66DA584C8270B /* Build configuration list for PBXNativeTarget "TMTapableLabel" */;
+			buildPhases = (
+				03539B61527380308F38D4B75AE5A1BA /* Sources */,
+				2F7D0EDAA20C69C4A0947741EBC628F2 /* Frameworks */,
+				69F9632909279B6DF0CFE7A0D3DBA5C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMTapableLabel;
+			productName = TMTapableLabel;
+			productReference = 950AFDF7484A42AE6236E9BD0320D7CF /* TMTapableLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		562D3F974CA030921EB445ACB8D2F1E5 /* Pods-TMTapableLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3CDDA9F87550C9407380EE6B829325 /* Build configuration list for PBXNativeTarget "Pods-TMTapableLabel_Example" */;
+			buildPhases = (
+				80C51FD5F6F9FA868043C400E1A7F987 /* Sources */,
+				F03129F6ABC5B5C8A7BA733763A4D7B4 /* Frameworks */,
+				46CE90D3D30A3E661793935A6AE9483F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E086DAF8F01582C6004982E1C659578E /* PBXTargetDependency */,
+			);
+			name = "Pods-TMTapableLabel_Example";
+			productName = "Pods-TMTapableLabel_Example";
+			productReference = B2D22B7F0AB11C532ED6B5AFDF0F9072 /* Pods_TMTapableLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F30071ECE09A96491133D6330D2F2C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562D3F974CA030921EB445ACB8D2F1E5 /* Pods-TMTapableLabel_Example */,
+				0FA58C7D091FAF1CB7DD3DF7B2A0C562 /* Pods-TMTapableLabel_Tests */,
+				22B9513B79612CDBB32EA1E6504975A7 /* TMTapableLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03539B61527380308F38D4B75AE5A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F4FA3D74C49BCC52AA229A7E35F973 /* TMTapableLabel-dummy.m in Sources */,
+				D3B1C9A4B0E113C21CCF6A241BB34509 /* TMTapableLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2BF2E7A2123D73254BFD7D43E66F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E1692186D3029893301B960FC98177 /* Pods-TMTapableLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C51FD5F6F9FA868043C400E1A7F987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F54E5213808A2F6BF45DC74CD73ADDE /* Pods-TMTapableLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E086DAF8F01582C6004982E1C659578E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMTapableLabel;
+			target = 22B9513B79612CDBB32EA1E6504975A7 /* TMTapableLabel */;
+			targetProxy = 1AE9E9C6BAFFD0BA9EE1E089DC788428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6A73A6A08D33787BF67C352B5F3145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7437FBC0F919DD401597E1C8DDBB1F54 /* Pods-TMTapableLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TMTapableLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMTapableLabel_Example/Pods-TMTapableLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TMTapableLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92A3D0CAF8C8266B648AB288B56E20C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5562F480A1E518A0E8B5218A3635AC /* TMTapableLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMTapableLabel/TMTapableLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TMTapableLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TMTapableLabel/TMTapableLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TMTapableLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B84E735A331701A8EB6D46453A69880F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E01B03AE30106EF98F8B08311B3615 /* Pods-TMTapableLabel_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TMTapableLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMTapableLabel_Example/Pods-TMTapableLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TMTapableLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2A52DCA767E2C261725B59B48F9C3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5562F480A1E518A0E8B5218A3635AC /* TMTapableLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMTapableLabel/TMTapableLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TMTapableLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TMTapableLabel/TMTapableLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TMTapableLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D335D08136703DFFE7B21ECABC1E0FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F82F803AC412F24CDD8E3AB1CF1B32 /* Pods-TMTapableLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TMTapableLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMTapableLabel_Tests/Pods-TMTapableLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TMTapableLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6C64E5732C4FAF159FA006D19F6AB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D916841F9B396F3067D9A2A5493BAC51 /* Pods-TMTapableLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TMTapableLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TMTapableLabel_Tests/Pods-TMTapableLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TMTapableLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B7727D3D7A75FB7D1C66DA584C8270B /* Build configuration list for PBXNativeTarget "TMTapableLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A3D0CAF8C8266B648AB288B56E20C5 /* Debug */,
+				D2A52DCA767E2C261725B59B48F9C3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663AAC36238B3357A658D4777C440C72 /* Build configuration list for PBXNativeTarget "Pods-TMTapableLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D335D08136703DFFE7B21ECABC1E0FC3 /* Debug */,
+				F6C64E5732C4FAF159FA006D19F6AB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3CDDA9F87550C9407380EE6B829325 /* Build configuration list for PBXNativeTarget "Pods-TMTapableLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6A73A6A08D33787BF67C352B5F3145 /* Debug */,
+				B84E735A331701A8EB6D46453A69880F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

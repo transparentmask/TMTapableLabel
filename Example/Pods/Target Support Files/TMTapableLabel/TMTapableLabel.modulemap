@@ -1,0 +1,6 @@
+framework module TMTapableLabel {
+  umbrella header "TMTapableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
