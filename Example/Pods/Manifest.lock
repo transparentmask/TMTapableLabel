@@ -1,0 +1,16 @@
+PODS:
+  - TMTapableLabel (0.1.0)
+
+DEPENDENCIES:
+  - TMTapableLabel (from `../`)
+
+EXTERNAL SOURCES:
+  TMTapableLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TMTapableLabel: f482b7174d27585827945559008ae004c53b3fff
+
+PODFILE CHECKSUM: 05dbba86b9af16721c4909ecf0f106bd2e57f217
+
+COCOAPODS: 1.2.1

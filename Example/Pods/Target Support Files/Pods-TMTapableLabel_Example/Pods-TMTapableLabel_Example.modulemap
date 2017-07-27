@@ -1,0 +1,6 @@
+framework module Pods_TMTapableLabel_Example {
+  umbrella header "Pods-TMTapableLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
