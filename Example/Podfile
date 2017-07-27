@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TMTapableLabel_Example' do
+  pod 'TMTapableLabel', :path => '../'
+
+  target 'TMTapableLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
